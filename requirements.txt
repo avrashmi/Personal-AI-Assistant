@@ -1,0 +1,29 @@
+# Core app
+streamlit==1.36.0
+python-dotenv==1.0.1
+
+# LangGraph + LangChain (compatible stable set)
+langgraph==0.2.35
+langchain==0.2.16
+langchain-core==0.2.39
+langchain-community==0.2.16
+
+# RAG + embeddings
+sentence-transformers==3.0.1
+faiss-cpu==1.8.0.post1
+
+# RAG evaluation (IMPORTANT: version pinned to avoid vertexai crash)
+ragas==0.1.12
+
+# NLP / HF ecosystem
+transformers==4.41.0
+datasets==2.20.0
+accelerate==0.33.0
+
+# PyTorch (CPU stable version)
+torch
+torchvision
+torchaudio
+
+# Utilities
+python-dateutil==2.9.0.post0
